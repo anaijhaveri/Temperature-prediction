@@ -1,0 +1,29 @@
+Model,Condition,Epsilon,MAE,MSE,RMSE,R2
+Original RNN,Clean,0.0,2.3462,7.5873,2.7545,0.905
+Original RNN,Attacked,0.001,2.4725,8.1947,2.8626,0.8974
+Original RNN,Attacked,0.005,2.9787,10.9528,3.3095,0.8629
+Original RNN,Attacked,0.01,3.6141,15.1443,3.8916,0.8104
+Original RNN,Attacked,0.02,4.8887,25.9996,5.099,0.6744
+Original RNN,Attacked,0.05,8.588,76.0149,8.7186,0.0482
+Original RNN,Attacked,0.1,14.5086,213.8411,14.6233,-1.6776
+Robust RNN,Clean,0.0,2.4508,8.6948,2.9487,0.8911
+Robust RNN,Attacked (Adv Trained),0.001,2.4972,8.956,2.9927,0.8879
+Robust RNN,Attacked (Adv Trained),0.005,2.6897,10.0681,3.173,0.8739
+Robust RNN,Attacked (Adv Trained),0.01,2.9425,11.61,3.4074,0.8546
+Robust RNN,Attacked (Adv Trained),0.02,3.4754,15.1962,3.8982,0.8097
+Robust RNN,Attacked (Adv Trained),0.05,5.118,29.4352,5.4254,0.6314
+Robust RNN,Attacked (Adv Trained),0.1,7.8649,65.1834,8.0736,0.1838
+Original LSTM,Clean,0.0,2.1829,6.7784,2.6035,0.9151
+Original LSTM,Attacked,0.001,2.2659,7.1482,2.6736,0.9105
+Original LSTM,Attacked,0.005,2.5983,8.77,2.9614,0.8902
+Original LSTM,Attacked,0.01,3.015,11.1194,3.3346,0.8608
+Original LSTM,Attacked,0.02,3.8495,16.8795,4.1085,0.7886
+Original LSTM,Attacked,0.05,6.2572,41.3713,6.4321,0.482
+Original LSTM,Attacked,0.1,10.147,105.7859,10.2852,-0.3246
+Robust LSTM,Clean,0.0,3.3843,16.7237,4.0895,0.7906
+Robust LSTM,Attacked (Adv Trained),0.001,3.4266,17.0687,4.1314,0.7863
+Robust LSTM,Attacked (Adv Trained),0.005,3.5996,18.5061,4.3019,0.7683
+Robust LSTM,Attacked (Adv Trained),0.01,3.8245,20.4306,4.52,0.7442
+Robust LSTM,Attacked (Adv Trained),0.02,4.2973,24.7016,4.9701,0.6907
+Robust LSTM,Attacked (Adv Trained),0.05,5.8055,40.8331,6.3901,0.4887
+Robust LSTM,Attacked (Adv Trained),0.1,8.3653,78.4311,8.8561,0.0179

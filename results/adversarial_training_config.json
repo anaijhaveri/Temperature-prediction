@@ -1,0 +1,23 @@
+{
+    "random_seed": 42,
+    "epsilon_train": 0.02,
+    "adversarial_ratio": 0.5,
+    "alpha_clean_loss": 0.5,
+    "alpha_adversarial_loss": 0.5,
+    "learning_rate": 0.001,
+    "batch_size": 256,
+    "max_epochs": 8,
+    "early_stopping_patience": 3,
+    "train_samples": 67500,
+    "val_samples": 14464,
+    "test_samples": 14465,
+    "evaluation_epsilons": [
+        0.0,
+        0.001,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1
+    ]
+}
